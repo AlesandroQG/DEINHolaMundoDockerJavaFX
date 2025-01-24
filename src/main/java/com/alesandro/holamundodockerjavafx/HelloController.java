@@ -2,8 +2,12 @@ package com.alesandro.holamundodockerjavafx;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class HelloController {
+    private static final Logger logger = LoggerFactory.getLogger(HelloController.class.getName());
+
     @FXML
     private Label welcomeText;
 
