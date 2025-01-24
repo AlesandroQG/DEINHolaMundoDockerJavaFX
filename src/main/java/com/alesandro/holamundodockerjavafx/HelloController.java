@@ -13,6 +13,7 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
+        logger.info("Botón pulsado");
         welcomeText.setText("Welcome to JavaFX Application!");
     }
 }
